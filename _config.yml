@@ -9,6 +9,15 @@ logo: logo.png
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
+  
+sphinx:
+  extra_extensions:
+    - sphinx.ext.autodoc
+    - sphinx.ext.doctest
+    - sphinx.ext.intersphinx
+    - jupyter_sphinx
+    - nbsphinx
+    - sphinx_togglebutton
 
 # Define the name of the latex output file for PDF builds
 latex:
